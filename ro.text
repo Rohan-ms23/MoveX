@@ -1,0 +1,45 @@
+MoveX/
+│
+├── movex-backend/
+│   ├── src/
+│   ├── pom.xml
+│   └── README.md
+│
+├── movex-frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── README.md
+│
+├── database/
+│   ├── schema.sql
+│   ├── seed.sql
+│   └── ERD.png
+│
+├── docs/
+│   ├── API.md
+│   ├── ARCHITECTURE.md
+│   ├── SETUP.md
+│   └── UI-WIREFRAMES/
+│
+├── screenshots/
+├── assets/
+└── README.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mysql -u root -p movex < database\schema.sql
+
+mysql -u root -p movex < schema.sql
